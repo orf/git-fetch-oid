@@ -10,3 +10,5 @@ log = "0.4.25"
 gix-hash = "0.16.0"
 const-hex = "1.14.0"
 gix-pack = "0.57.0"
+gix-transport = { version = "0.45.0", features = ["blocking-client", "http-client", "http-client-reqwest-native-tls"] }
+clap = { version = "4.5.27", features = ["derive"] }
