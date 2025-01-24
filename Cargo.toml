@@ -1,0 +1,12 @@
+[package]
+name = "git-fetch-oid"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gix-protocol = { version = "0.48.0", features = ["blocking-client"] }
+prodash = "29.0.0"
+log = "0.4.25"
+gix-hash = "0.16.0"
+const-hex = "1.14.0"
+gix-pack = "0.57.0"
